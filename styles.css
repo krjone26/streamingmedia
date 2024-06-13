@@ -123,11 +123,12 @@ audio::-webkit-media-controls-enclosure {
 
 }
 
-/* @media screen and (min-width:375px) {
+@media screen and (min-width:375px) {
     ul {
-        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
     }
-} */
+}
 
 @media screen and (min-width:834px) {
     ul {
